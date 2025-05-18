@@ -4,7 +4,7 @@
 
 Veja toda a documentação do progeto no botão abaixo:
 
-[![Documentação](https://img.shields.io/badge/Leia%20a%20Documenta%C3%A7%C3%A3o-blue?style=for-the-badge)](https://app.gitbook.com/o/RiAaWBZJCRon9u5dohGh/s/JmZdJzMBwONHI36AR6DR/)
+[![Documentação](https://img.shields.io/badge/Leia%20a%20Documenta%C3%A7%C3%A3o-blue?style=for-the-badge)](https://mao-na-roda.gitbook.io/mao-na-roda/)
 
 ## 📝 Sobre o Projeto
 
