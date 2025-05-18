@@ -79,7 +79,7 @@ Siga estes passos para rodar o agente:
     * Você poderá digitar sua descrição do problema de reparo no campo de entrada e pressionar Enter para enviar.
     * Siga as perguntas do agente e forneça as informações solicitadas para ajudá-lo a diagnosticar o problema.
 
-### **Como Enviar Imagens para o Agente no Colab**
+### 📷 **Como Enviar Imagens para o Agente no Colab**
 
 O agente "Mão na Roda" tem a capacidade de receber e analisar imagens para auxiliar no diagnóstico de problemas. Ao executar o notebook no Google Colab, você pode enviar uma imagem seguindo estes passos:
 
