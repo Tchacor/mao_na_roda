@@ -1,6 +1,6 @@
 # 🛠️ Mão na Roda - Seu Assistente Digital para Reparos Domésticos (Notebook Executável)
 
-![Banner do Projeto - Opcional: Crie uma imagem legal para colocar aqui!]
+![Image](https://github.com/user-attachments/assets/0f13b41d-9731-4658-b54f-d241a5845944)
 
 Um notebook executável que demonstra um assistente de IA conversacional construído com Google Gemini para ajudar usuários leigos em pequenos reparos e projetos de faça-você-mesmo em casa. Este projeto foi desenvolvido como parte da Imersão Alura + Google Gemini.
 
