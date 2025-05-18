@@ -98,11 +98,6 @@ O agente "Mão na Roda" tem a capacidade de receber e analisar imagens para auxi
     * Na área de interação do notebook (onde você digita suas mensagens para o agente), cole o caminho que você copiou no passo anterior (ex: `/content/sua_imagem.jpg`) e pressione Enter.
     * Você pode então fornecer uma descrição opcional da imagem ou fazer sua pergunta relacionada a ela na próxima linha.
 
-**Nota:** A interação no notebook é uma demonstração funcional baseada em texto no terminal do Colab. Uma implementação completa do "Mão na Roda" como aplicativo envolveria um frontend (por exemplo, em Flutter) comunic
-
-## 🤝 Contribuições
-... (Restante do seu README)
-
 ## 🤝 Contribuições
 
 Este notebook é um ponto de partida. Sinta-se à vontade para "Forkar" este repositório, fazer melhorias e compartilhar!
@@ -118,12 +113,3 @@ Tcharles Sousa Coutinho
 Linkedin: https://www.linkedin.com/in/tcharles-coutinho-066960201/
 
 GitHub: https://github.com/Tchacor
-
----
-
-**Lembre-se de:**
-
-1.  **Criar o Repositório no GitHub:** Crie um novo repositório público chamado `mao-na-roda`.
-2.  **Adicionar os Arquivos:** Faça o upload do `Mao_na_Roda.ipynb` e do `README.md` (com o conteúdo acima ajustado) para o repositório. Adicione também um arquivo `.gitignore` (pode ser gerado pelo próprio GitHub ao criar o repositório, escolhendo template para Python) e um arquivo `LICENSE`.
-3.  **Ajustar o link "Open in Colab":** Edite o `README.md` no GitHub e ajuste o link do badge para apontar para o seu repositório.
-4.  **Adicionar um Banner:** (Opcional) Crie uma imagem legal para o projeto e adicione-a na pasta raiz, ajustando o link no README.
