@@ -50,7 +50,6 @@ Siga estes passos para rodar o agente:
 
 1.  **Abra o Notebook no Google Colab:**
       Clique no botão "Open in Colab" abaixo ou faça o upload do arquivo `Mao_na_Roda.ipynb` para o seu Google Drive e abra-o com o Google Colab.
-    
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tchacor/mao_na_roda/blob/main/Mao_na_Roda.ipynb)
 
 3.  **Obtenha uma Chave de API do Google Gemini:**
