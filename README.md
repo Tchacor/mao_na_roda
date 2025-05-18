@@ -41,7 +41,7 @@ O "Mão na Roda" é construído sobre a poderosa plataforma de modelos de lingua
 
 Esta estrutura inicial no notebook demonstra a capacidade do Gemini de atuar como um assistente conversacional e multimodal para casos de uso práticos como reparos domésticos.
 
-# Executando o Notebook no Colab
+## ⚙️ Executando o Notebook no Colab
 
 O código principal do assistente "Mão na Roda", que demonstra a interação com o Google Gemini, está contido no arquivo `Mao_na_Roda.ipynb`. Este notebook é projetado para ser executado no ambiente online e gratuito do Google Colab.
 
@@ -50,9 +50,10 @@ Siga estes passos para rodar o agente:
 
 1.  **Abra o Notebook no Google Colab:**
       Clique no botão "Open in Colab" abaixo ou faça o upload do arquivo `Mao_na_Roda.ipynb` para o seu Google Drive e abra-o com o Google Colab.
+    
         [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tchacor/mao_na_roda/blob/main/Mao_na_Roda.ipynb)
 
-2.  **Obtenha uma Chave de API do Google Gemini:**
+3.  **Obtenha uma Chave de API do Google Gemini:**
     * Você precisará de uma chave de API válida para acessar os modelos do Gemini.
     * Vá para o [Google AI Studio](https://aistudio.google.com/) e faça login com sua conta Google.
     * No Google AI Studio, você pode gerar e gerenciar suas chaves de API gratuitamente. Crie ou selecione um projeto e gere sua chave.
