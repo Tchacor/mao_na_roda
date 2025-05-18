@@ -2,13 +2,13 @@
 
 ![Image](https://github.com/user-attachments/assets/0f13b41d-9731-4658-b54f-d241a5845944)
 
-Um assistente de IA conversacional construído com Google Gemini para ajudar usuários leigos em pequenos reparos e projetos de faça-você-mesmo em casa. Este projeto foi desenvolvido como parte da Imersão Alura + Google Gemini.
-
 ## 📝 Sobre o Projeto
 
-O "Mão na Roda" nasceu da necessidade de democratizar o conhecimento técnico em reparos domésticos. Muitas pessoas se sentem inseguras ao lidar com problemas simples em casa, resultando em frustração, gastos desnecessários ou o descarte prematuro de itens que poderiam ser consertados.
+O projeto **"Mão na Roda - Seu Faz-Tudo Digital"** nasceu da necessidade clara de democratizar o conhecimento técnico em reparos domésticos básicos e projetos de "faça-você-mesmo" (DIY). Em um mundo onde a conveniência muitas vezes leva ao descarte, muitas pessoas sentem-se inseguras ou despreparadas para lidar com problemas simples em suas casas – desde uma torneira pingando a uma tomada com mau contato. Essa hesitação resulta não apenas em frustração e desconforto, mas também em gastos desnecessários com serviços profissionais para tarefas que poderiam ser resolvidas de forma autônoma, e contribui para o ciclo de consumo e descarte prematuro de itens.
 
-Este notebook apresenta um protótipo de assistente de IA que busca oferecer uma solução acessível e amigável, atuando como um "Faz-Tudo Digital" que guia o usuário passo a passo no diagnóstico e na resolução de problemas comuns, sempre com foco na segurança e na capacitação.
+Desenvolvido no contexto da Imersão Alura + Google Gemini, o "Mão na Roda" propõe uma solução inovadora e acessível. Atuando como um **assistente inteligente e conversacional de IA**, o objetivo principal é empoderar indivíduos, fornecendo o conhecimento e a confiança necessários para que possam resolver problemas comuns em suas residências por conta própria, de forma segura e eficiente.
+
+Mais do que um simples manual digital, este projeto busca ser um "Faz-Tudo Digital" amigável que guia o usuário passo a passo. Através de uma interação natural e didática, ele ajuda a diagnosticar a situação, sugere os materiais e ferramentas necessários e fornece instruções claras, sempre priorizando a segurança. Acreditamos que, ao capacitar as pessoas com esse conhecimento, podemos promover maior autossuficiência, economia doméstica e um comportamento mais sustentável, incentivando o reparo e a reutilização em vez do descarte. Este notebook serve como um protótipo funcional dessa visão, demonstrando a capacidade da IA em tornar o DIY acessível a todos.
 
 ## ✨ Diferenciais e Inovação
 
