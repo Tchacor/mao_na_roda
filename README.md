@@ -79,9 +79,9 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para 
 
 ## 📞 Contato
 
-Tcharles Sousa Coutinho
-Linkedin: https://www.linkedin.com/in/tcharles-coutinho-066960201/
-GitHub: https://github.com/Tchacor
+*Tcharles Sousa Coutinho
+*Linkedin: https://www.linkedin.com/in/tcharles-coutinho-066960201/
+*GitHub: https://github.com/Tchacor
 
 ---
 
