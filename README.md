@@ -1,4 +1,4 @@
-# 🛠️ Mão na Roda - Seu Assistente Digital para Reparos Domésticos
+# 🛠️ Mão na Roda - Seu Faz-Tudo Digital
 
 ![Image](https://github.com/user-attachments/assets/0f13b41d-9731-4658-b54f-d241a5845944)
 
