@@ -41,33 +41,67 @@ O "Mão na Roda" é construído sobre a poderosa plataforma de modelos de lingua
 
 Esta estrutura inicial no notebook demonstra a capacidade do Gemini de atuar como um assistente conversacional e multimodal para casos de uso práticos como reparos domésticos.
 
-## 🚀 Como Executar o Notebook
+# Executando o Notebook no Colab
 
-O notebook `Mao_na_Roda.ipynb` é projetado para rodar no Google Colab.
+O código principal do assistente "Mão na Roda", que demonstra a interação com o Google Gemini, está contido no arquivo `Mao_na_Roda.ipynb`. Este notebook é projetado para ser executado no ambiente online e gratuito do Google Colab.
 
-### Pré-requisitos
+Siga estes passos para rodar o agente:
 
-* Uma conta Google para acessar o Google Colab.
-* Uma chave de API do Google Gemini. Você pode obtê-la gratuitamente no [Google AI Studio](https://aistudio.google.com/).
 
-### Passos para Execução
+1.  **Abra o Notebook no Google Colab:**
+      Clique no botão "Open in Colab" abaixo ou faça o upload do arquivo `Mao_na_Roda.ipynb` para o seu Google Drive e abra-o com o Google Colab.
+        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tchacor/mao_na_roda/blob/main/Mao_na_Roda.ipynb)
 
-1.  **Abrir no Google Colab:** Clique no botão "Open in Colab" abaixo ou faça o upload do arquivo `Mao_na_Roda.ipynb` para o seu Google Drive e abra-o com o Google Colab.
+2.  **Obtenha uma Chave de API do Google Gemini:**
+    * Você precisará de uma chave de API válida para acessar os modelos do Gemini.
+    * Vá para o [Google AI Studio](https://aistudio.google.com/) e faça login com sua conta Google.
+    * No Google AI Studio, você pode gerar e gerenciar suas chaves de API gratuitamente. Crie ou selecione um projeto e gere sua chave.
+    * **Mantenha sua chave de API segura e nunca a exponha publicamente!**
 
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tchacor/mao-na-roda/blob/main/Mao_na_Roda.ipynb)
-
-2.  **Configurar a API Key:**
-    * No Google Colab, no menu lateral esquerdo, clique no ícone de chave (Segredos).
+4.  **Configure a Chave de API no Colab (Usando Segredos):**
+    * Dentro do ambiente Google Colab com o notebook aberto, localize e clique no ícone de chave (geralmente no menu lateral esquerdo). Este é o gerenciador de "Segredos" (Secrets).
     * Clique em "+ Novo segredo do Notebook".
-    * No campo "Nome", digite `GOOGLE_API_KEY`.
-    * No campo "Valor", cole a sua chave de API do Google Gemini.
-    * Certifique-se de que a opção "Acessar no notebook" esteja marcada.
+    * No campo "Nome" (Key), digite exatamente `GOOGLE_API_KEY`.
+    * No campo "Valor" (Value), cole a chave de API do Google Gemini que você obteve anteriormente.
+    * Certifique-se de que a opção "Acessar neste notebook" esteja marcada. Isso permite que o código do notebook acesse o valor usando `userdata.get('GOOGLE_API_KEY')`.
+    * **Não cole sua chave de API diretamente no código do notebook!** Usar o gerenciador de Segredos do Colab é a forma segura de fazer isso.
 
-3.  **Executar as Células:** Execute as células do notebook sequencialmente (Shift + Enter em cada célula ou use o menu "Runtime" -> "Run all"). As células irão instalar as bibliotecas necessárias, configurar a API Key e iniciar a interação com o agente.
+5.  **Execute as Células do Notebook:**
+    * Vá para o menu "Runtime" (Ambiente de execução) na parte superior e selecione "Run all" (Executar tudo).
+    * O Colab executará cada célula sequencialmente.
+    * As primeiras células instalarão as bibliotecas Python necessárias (`google-genai`, `Pillow`, etc.) utilizando `%pip`.
+    * A célula de configuração da API lerá a chave do gerenciador de Segredos.
+    * As células seguintes configurarão o cliente Gemini e o agente.
+    * A última célula iniciará o loop de interação com o assistente.
 
-4.  **Interagir com o Agente:** Após executar a última célula, você poderá interagir com o "Mão na Roda" diretamente na saída do notebook. Siga as instruções e responda às perguntas do agente.
+6.  **Interaja com o Agente:**
+    * Após a execução da última célula, você verá a mensagem de boas-vindas do "Mão na Roda" na saída do notebook.
+    * Você poderá digitar sua descrição do problema de reparo no campo de entrada e pressionar Enter para enviar.
+    * Siga as perguntas do agente e forneça as informações solicitadas para ajudá-lo a diagnosticar o problema.
 
-    * Para enviar uma imagem, digite `/enviarimagem` quando o agente solicitar ou se você desejar enviar uma, e depois forneça o caminho do arquivo na próxima linha.
+### **Como Enviar Imagens para o Agente no Colab**
+
+O agente "Mão na Roda" tem a capacidade de receber e analisar imagens para auxiliar no diagnóstico de problemas. Ao executar o notebook no Google Colab, você pode enviar uma imagem seguindo estes passos:
+
+1.  **Faça o Upload da Imagem para o Ambiente do Colab:**
+    * No menu lateral esquerdo do Google Colab, clique no ícone de pasta (Explorador de arquivos).
+    * Clique no ícone de upload de arquivo (um papel com uma seta para cima).
+    * Selecione o arquivo de imagem no seu computador e faça o upload para o ambiente temporário do Colab.
+    * **Atenção:** Os arquivos uploaded para o ambiente do Colab são temporários e serão apagados quando a sessão do Colab for encerrada.
+
+2.  **Obtenha o Caminho do Arquivo no Colab:**
+    * No Explorador de arquivos do Colab, localize a imagem que você acabou de subir.
+    * Clique com o botão direito do mouse sobre o nome do arquivo da imagem.
+    * Selecione a opção **"Copiar caminho do arquivo"**. Este caminho será algo como `/content/sua_imagem.jpg`.
+
+3.  **Cole o caminho da imagem na Interação com o Agente:**
+    * Na área de interação do notebook (onde você digita suas mensagens para o agente), cole o caminho que você copiou no passo anterior (ex: `/content/sua_imagem.jpg`) e pressione Enter.
+    * Você pode então fornecer uma descrição opcional da imagem ou fazer sua pergunta relacionada a ela na próxima linha.
+
+**Nota:** A interação no notebook é uma demonstração funcional baseada em texto no terminal do Colab. Uma implementação completa do "Mão na Roda" como aplicativo envolveria um frontend (por exemplo, em Flutter) comunic
+
+## 🤝 Contribuições
+... (Restante do seu README)
 
 ## 🤝 Contribuições
 
