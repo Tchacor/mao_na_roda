@@ -2,9 +2,8 @@
 
 ![Image](https://github.com/user-attachments/assets/0f13b41d-9731-4658-b54f-d241a5845944)
 
-Veja toda a documentação do progeto no botão abaixo:
 
-[![Documentação](https://img.shields.io/badge/Leia%20a%20Documenta%C3%A7%C3%A3o-blue?style=for-the-badge)](https://mao-na-roda.gitbook.io/mao-na-roda/)
+[![Documentação](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-blue?style=for-the-badge)](https://mao-na-roda.gitbook.io/mao-na-roda/)
 
 ## 📝 Sobre o Projeto
 
